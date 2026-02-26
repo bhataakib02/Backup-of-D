@@ -1,0 +1,141 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nexus-frontend
+  namespace: nexus-cyber-intelligence
+  labels:
+    app: nexus-frontend
+    tier: frontend
+    version: v2.1.0
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nexus-frontend
+  template:
+    metadata:
+      labels:
+        app: nexus-frontend
+        tier: frontend
+        version: v2.1.0
+    spec:
+      serviceAccountName: nexus-frontend-sa
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1000
+        fsGroup: 2000
+      containers:
+      - name: nexus-frontend
+        image: nexus-cyber-intelligence/frontend:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 3000
+          name: http
+          protocol: TCP
+        env:
+        - name: REACT_APP_API_URL
+          value: "https://api.nexus-cyber-intelligence.com"
+        - name: REACT_APP_ENVIRONMENT
+          value: "production"
+        - name: REACT_APP_VERSION
+          value: "v2.1.0"
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "100m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 3000
+          initialDelaySeconds: 30
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 3000
+          initialDelaySeconds: 5
+          periodSeconds: 5
+          timeoutSeconds: 3
+          failureThreshold: 3
+        volumeMounts:
+        - name: config-volume
+          mountPath: /app/config
+          readOnly: true
+      volumes:
+      - name: config-volume
+        configMap:
+          name: nexus-frontend-config
+      nodeSelector:
+        kubernetes.io/os: linux
+      tolerations:
+      - key: "security"
+        operator: "Equal"
+        value: "high"
+        effect: "NoSchedule"
+      affinity:
+        podAntiAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 100
+            podAffinityTerm:
+              labelSelector:
+                matchExpressions:
+                - key: app
+                  operator: In
+                  values:
+                  - nexus-frontend
+              topologyKey: kubernetes.io/hostname
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nexus-frontend-service
+  namespace: nexus-cyber-intelligence
+  labels:
+    app: nexus-frontend
+spec:
+  selector:
+    app: nexus-frontend
+  ports:
+  - name: http
+    port: 80
+    targetPort: 3000
+    protocol: TCP
+  type: ClusterIP
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: nexus-frontend-sa
+  namespace: nexus-cyber-intelligence
+  labels:
+    app: nexus-frontend
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  namespace: nexus-cyber-intelligence
+  name: nexus-frontend-role
+rules:
+- apiGroups: [""]
+  resources: ["secrets", "configmaps"]
+  verbs: ["get", "list", "watch"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: nexus-frontend-rolebinding
+  namespace: nexus-cyber-intelligence
+subjects:
+- kind: ServiceAccount
+  name: nexus-frontend-sa
+  namespace: nexus-cyber-intelligence
+roleRef:
+  kind: Role
+  name: nexus-frontend-role
+  apiGroup: rbac.authorization.k8s.io
+

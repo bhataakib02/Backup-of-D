@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: nexus-cyber-intelligence
+  labels:
+    name: nexus-cyber-intelligence
+    app: nexus-cyber-intelligence
+    environment: production
+    tier: security
+
