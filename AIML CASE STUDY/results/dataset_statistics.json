@@ -1,0 +1,11 @@
+{
+  "total_requirements": 200,
+  "conflict_distribution": {
+    "Budget": 2,
+    "Space": 6,
+    "Compliance": 6,
+    "Security": 9
+  },
+  "requirements_with_conflicts": 15,
+  "multi_label_conflicts": 8
+}

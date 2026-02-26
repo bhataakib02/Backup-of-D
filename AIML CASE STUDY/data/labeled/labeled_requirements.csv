@@ -1,0 +1,201 @@
+requirement_id,requirement_text,Budget,Space,Compliance,Security
+1,The system must provide free Wi-Fi to all students in the hostel.,1,0,0,1
+2,High-speed internet connection with 100 Mbps bandwidth for each room.,0,0,0,0
+3,Install CCTV cameras in all corridors and common areas.,0,1,0,1
+4,Provide premium gym equipment worth ₹5 lakhs in the hostel.,0,0,0,0
+5,Each student should have a private room with minimum 200 sq ft area.,0,0,0,0
+6,Common study hall with capacity for 500 students simultaneously.,0,1,0,0
+7,Separate dining hall for 1000 students with individual tables.,0,1,0,1
+8,Recreation room with gaming consoles and entertainment systems.,0,0,0,0
+9,Students can stay in hostel 24/7 without any restrictions.,0,0,1,0
+10,No curfew timings applicable for hostel residents.,0,0,1,1
+11,Allow visitors anytime without prior notice or documentation.,0,0,1,0
+12,Hostel rules should be flexible and changeable by students.,0,0,1,0
+13,Open access to all areas without authentication required.,0,1,0,1
+14,No need for ID verification for hostel entry.,0,0,0,1
+15,Students can access any room without authorization.,0,1,0,1
+16,No monitoring or logging of student activities required.,0,0,0,1
+17,"Provide luxury amenities including spa, pool, and concierge service at no extra cost.",1,0,0,1
+18,Allow unlimited guests without registration or background checks.,0,0,1,0
+19,No restrictions on capacity - accommodate unlimited students.,0,1,1,0
+20,Premium security systems with biometric access but maintain low fees.,0,0,0,0
+21,System should maintain student records digitally.,0,0,0,0
+22,Generate monthly bills for hostel fees.,0,0,0,0
+23,Track maintenance requests and complaints.,0,0,0,0
+24,Schedule room cleaning and maintenance activities.,0,0,0,0
+25,Requirement 25: Hostel management system should handle 5 different scenarios.,0,0,0,0
+26,Requirement 26: Hostel management system should handle 6 different scenarios.,0,0,0,0
+27,Requirement 27: Hostel management system should handle 7 different scenarios.,0,0,0,0
+28,Requirement 28: Hostel management system should handle 8 different scenarios.,0,0,0,0
+29,Requirement 29: Hostel management system should handle 9 different scenarios.,0,0,0,0
+30,Requirement 30: Hostel management system should handle 10 different scenarios.,0,0,0,0
+31,Requirement 31: Hostel management system should handle 1 different scenarios.,0,0,0,0
+32,Requirement 32: Hostel management system should handle 2 different scenarios.,0,0,0,0
+33,Requirement 33: Hostel management system should handle 3 different scenarios.,0,0,0,0
+34,Requirement 34: Hostel management system should handle 4 different scenarios.,0,0,0,0
+35,Requirement 35: Hostel management system should handle 5 different scenarios.,0,0,0,0
+36,Requirement 36: Hostel management system should handle 6 different scenarios.,0,0,0,0
+37,Requirement 37: Hostel management system should handle 7 different scenarios.,0,0,0,0
+38,Requirement 38: Hostel management system should handle 8 different scenarios.,0,0,0,0
+39,Requirement 39: Hostel management system should handle 9 different scenarios.,0,0,0,0
+40,Requirement 40: Hostel management system should handle 10 different scenarios.,0,0,0,0
+41,Requirement 41: Hostel management system should handle 1 different scenarios.,0,0,0,0
+42,Requirement 42: Hostel management system should handle 2 different scenarios.,0,0,0,0
+43,Requirement 43: Hostel management system should handle 3 different scenarios.,0,0,0,0
+44,Requirement 44: Hostel management system should handle 4 different scenarios.,0,0,0,0
+45,Requirement 45: Hostel management system should handle 5 different scenarios.,0,0,0,0
+46,Requirement 46: Hostel management system should handle 6 different scenarios.,0,0,0,0
+47,Requirement 47: Hostel management system should handle 7 different scenarios.,0,0,0,0
+48,Requirement 48: Hostel management system should handle 8 different scenarios.,0,0,0,0
+49,Requirement 49: Hostel management system should handle 9 different scenarios.,0,0,0,0
+50,Requirement 50: Hostel management system should handle 10 different scenarios.,0,0,0,0
+51,Requirement 51: Hostel management system should handle 1 different scenarios.,0,0,0,0
+52,Requirement 52: Hostel management system should handle 2 different scenarios.,0,0,0,0
+53,Requirement 53: Hostel management system should handle 3 different scenarios.,0,0,0,0
+54,Requirement 54: Hostel management system should handle 4 different scenarios.,0,0,0,0
+55,Requirement 55: Hostel management system should handle 5 different scenarios.,0,0,0,0
+56,Requirement 56: Hostel management system should handle 6 different scenarios.,0,0,0,0
+57,Requirement 57: Hostel management system should handle 7 different scenarios.,0,0,0,0
+58,Requirement 58: Hostel management system should handle 8 different scenarios.,0,0,0,0
+59,Requirement 59: Hostel management system should handle 9 different scenarios.,0,0,0,0
+60,Requirement 60: Hostel management system should handle 10 different scenarios.,0,0,0,0
+61,Requirement 61: Hostel management system should handle 1 different scenarios.,0,0,0,0
+62,Requirement 62: Hostel management system should handle 2 different scenarios.,0,0,0,0
+63,Requirement 63: Hostel management system should handle 3 different scenarios.,0,0,0,0
+64,Requirement 64: Hostel management system should handle 4 different scenarios.,0,0,0,0
+65,Requirement 65: Hostel management system should handle 5 different scenarios.,0,0,0,0
+66,Requirement 66: Hostel management system should handle 6 different scenarios.,0,0,0,0
+67,Requirement 67: Hostel management system should handle 7 different scenarios.,0,0,0,0
+68,Requirement 68: Hostel management system should handle 8 different scenarios.,0,0,0,0
+69,Requirement 69: Hostel management system should handle 9 different scenarios.,0,0,0,0
+70,Requirement 70: Hostel management system should handle 10 different scenarios.,0,0,0,0
+71,Requirement 71: Hostel management system should handle 1 different scenarios.,0,0,0,0
+72,Requirement 72: Hostel management system should handle 2 different scenarios.,0,0,0,0
+73,Requirement 73: Hostel management system should handle 3 different scenarios.,0,0,0,0
+74,Requirement 74: Hostel management system should handle 4 different scenarios.,0,0,0,0
+75,Requirement 75: Hostel management system should handle 5 different scenarios.,0,0,0,0
+76,Requirement 76: Hostel management system should handle 6 different scenarios.,0,0,0,0
+77,Requirement 77: Hostel management system should handle 7 different scenarios.,0,0,0,0
+78,Requirement 78: Hostel management system should handle 8 different scenarios.,0,0,0,0
+79,Requirement 79: Hostel management system should handle 9 different scenarios.,0,0,0,0
+80,Requirement 80: Hostel management system should handle 10 different scenarios.,0,0,0,0
+81,Requirement 81: Hostel management system should handle 1 different scenarios.,0,0,0,0
+82,Requirement 82: Hostel management system should handle 2 different scenarios.,0,0,0,0
+83,Requirement 83: Hostel management system should handle 3 different scenarios.,0,0,0,0
+84,Requirement 84: Hostel management system should handle 4 different scenarios.,0,0,0,0
+85,Requirement 85: Hostel management system should handle 5 different scenarios.,0,0,0,0
+86,Requirement 86: Hostel management system should handle 6 different scenarios.,0,0,0,0
+87,Requirement 87: Hostel management system should handle 7 different scenarios.,0,0,0,0
+88,Requirement 88: Hostel management system should handle 8 different scenarios.,0,0,0,0
+89,Requirement 89: Hostel management system should handle 9 different scenarios.,0,0,0,0
+90,Requirement 90: Hostel management system should handle 10 different scenarios.,0,0,0,0
+91,Requirement 91: Hostel management system should handle 1 different scenarios.,0,0,0,0
+92,Requirement 92: Hostel management system should handle 2 different scenarios.,0,0,0,0
+93,Requirement 93: Hostel management system should handle 3 different scenarios.,0,0,0,0
+94,Requirement 94: Hostel management system should handle 4 different scenarios.,0,0,0,0
+95,Requirement 95: Hostel management system should handle 5 different scenarios.,0,0,0,0
+96,Requirement 96: Hostel management system should handle 6 different scenarios.,0,0,0,0
+97,Requirement 97: Hostel management system should handle 7 different scenarios.,0,0,0,0
+98,Requirement 98: Hostel management system should handle 8 different scenarios.,0,0,0,0
+99,Requirement 99: Hostel management system should handle 9 different scenarios.,0,0,0,0
+100,Requirement 100: Hostel management system should handle 10 different scenarios.,0,0,0,0
+101,Requirement 101: Hostel management system should handle 1 different scenarios.,0,0,0,0
+102,Requirement 102: Hostel management system should handle 2 different scenarios.,0,0,0,0
+103,Requirement 103: Hostel management system should handle 3 different scenarios.,0,0,0,0
+104,Requirement 104: Hostel management system should handle 4 different scenarios.,0,0,0,0
+105,Requirement 105: Hostel management system should handle 5 different scenarios.,0,0,0,0
+106,Requirement 106: Hostel management system should handle 6 different scenarios.,0,0,0,0
+107,Requirement 107: Hostel management system should handle 7 different scenarios.,0,0,0,0
+108,Requirement 108: Hostel management system should handle 8 different scenarios.,0,0,0,0
+109,Requirement 109: Hostel management system should handle 9 different scenarios.,0,0,0,0
+110,Requirement 110: Hostel management system should handle 10 different scenarios.,0,0,0,0
+111,Requirement 111: Hostel management system should handle 1 different scenarios.,0,0,0,0
+112,Requirement 112: Hostel management system should handle 2 different scenarios.,0,0,0,0
+113,Requirement 113: Hostel management system should handle 3 different scenarios.,0,0,0,0
+114,Requirement 114: Hostel management system should handle 4 different scenarios.,0,0,0,0
+115,Requirement 115: Hostel management system should handle 5 different scenarios.,0,0,0,0
+116,Requirement 116: Hostel management system should handle 6 different scenarios.,0,0,0,0
+117,Requirement 117: Hostel management system should handle 7 different scenarios.,0,0,0,0
+118,Requirement 118: Hostel management system should handle 8 different scenarios.,0,0,0,0
+119,Requirement 119: Hostel management system should handle 9 different scenarios.,0,0,0,0
+120,Requirement 120: Hostel management system should handle 10 different scenarios.,0,0,0,0
+121,Requirement 121: Hostel management system should handle 1 different scenarios.,0,0,0,0
+122,Requirement 122: Hostel management system should handle 2 different scenarios.,0,0,0,0
+123,Requirement 123: Hostel management system should handle 3 different scenarios.,0,0,0,0
+124,Requirement 124: Hostel management system should handle 4 different scenarios.,0,0,0,0
+125,Requirement 125: Hostel management system should handle 5 different scenarios.,0,0,0,0
+126,Requirement 126: Hostel management system should handle 6 different scenarios.,0,0,0,0
+127,Requirement 127: Hostel management system should handle 7 different scenarios.,0,0,0,0
+128,Requirement 128: Hostel management system should handle 8 different scenarios.,0,0,0,0
+129,Requirement 129: Hostel management system should handle 9 different scenarios.,0,0,0,0
+130,Requirement 130: Hostel management system should handle 10 different scenarios.,0,0,0,0
+131,Requirement 131: Hostel management system should handle 1 different scenarios.,0,0,0,0
+132,Requirement 132: Hostel management system should handle 2 different scenarios.,0,0,0,0
+133,Requirement 133: Hostel management system should handle 3 different scenarios.,0,0,0,0
+134,Requirement 134: Hostel management system should handle 4 different scenarios.,0,0,0,0
+135,Requirement 135: Hostel management system should handle 5 different scenarios.,0,0,0,0
+136,Requirement 136: Hostel management system should handle 6 different scenarios.,0,0,0,0
+137,Requirement 137: Hostel management system should handle 7 different scenarios.,0,0,0,0
+138,Requirement 138: Hostel management system should handle 8 different scenarios.,0,0,0,0
+139,Requirement 139: Hostel management system should handle 9 different scenarios.,0,0,0,0
+140,Requirement 140: Hostel management system should handle 10 different scenarios.,0,0,0,0
+141,Requirement 141: Hostel management system should handle 1 different scenarios.,0,0,0,0
+142,Requirement 142: Hostel management system should handle 2 different scenarios.,0,0,0,0
+143,Requirement 143: Hostel management system should handle 3 different scenarios.,0,0,0,0
+144,Requirement 144: Hostel management system should handle 4 different scenarios.,0,0,0,0
+145,Requirement 145: Hostel management system should handle 5 different scenarios.,0,0,0,0
+146,Requirement 146: Hostel management system should handle 6 different scenarios.,0,0,0,0
+147,Requirement 147: Hostel management system should handle 7 different scenarios.,0,0,0,0
+148,Requirement 148: Hostel management system should handle 8 different scenarios.,0,0,0,0
+149,Requirement 149: Hostel management system should handle 9 different scenarios.,0,0,0,0
+150,Requirement 150: Hostel management system should handle 10 different scenarios.,0,0,0,0
+151,Requirement 151: Hostel management system should handle 1 different scenarios.,0,0,0,0
+152,Requirement 152: Hostel management system should handle 2 different scenarios.,0,0,0,0
+153,Requirement 153: Hostel management system should handle 3 different scenarios.,0,0,0,0
+154,Requirement 154: Hostel management system should handle 4 different scenarios.,0,0,0,0
+155,Requirement 155: Hostel management system should handle 5 different scenarios.,0,0,0,0
+156,Requirement 156: Hostel management system should handle 6 different scenarios.,0,0,0,0
+157,Requirement 157: Hostel management system should handle 7 different scenarios.,0,0,0,0
+158,Requirement 158: Hostel management system should handle 8 different scenarios.,0,0,0,0
+159,Requirement 159: Hostel management system should handle 9 different scenarios.,0,0,0,0
+160,Requirement 160: Hostel management system should handle 10 different scenarios.,0,0,0,0
+161,Requirement 161: Hostel management system should handle 1 different scenarios.,0,0,0,0
+162,Requirement 162: Hostel management system should handle 2 different scenarios.,0,0,0,0
+163,Requirement 163: Hostel management system should handle 3 different scenarios.,0,0,0,0
+164,Requirement 164: Hostel management system should handle 4 different scenarios.,0,0,0,0
+165,Requirement 165: Hostel management system should handle 5 different scenarios.,0,0,0,0
+166,Requirement 166: Hostel management system should handle 6 different scenarios.,0,0,0,0
+167,Requirement 167: Hostel management system should handle 7 different scenarios.,0,0,0,0
+168,Requirement 168: Hostel management system should handle 8 different scenarios.,0,0,0,0
+169,Requirement 169: Hostel management system should handle 9 different scenarios.,0,0,0,0
+170,Requirement 170: Hostel management system should handle 10 different scenarios.,0,0,0,0
+171,Requirement 171: Hostel management system should handle 1 different scenarios.,0,0,0,0
+172,Requirement 172: Hostel management system should handle 2 different scenarios.,0,0,0,0
+173,Requirement 173: Hostel management system should handle 3 different scenarios.,0,0,0,0
+174,Requirement 174: Hostel management system should handle 4 different scenarios.,0,0,0,0
+175,Requirement 175: Hostel management system should handle 5 different scenarios.,0,0,0,0
+176,Requirement 176: Hostel management system should handle 6 different scenarios.,0,0,0,0
+177,Requirement 177: Hostel management system should handle 7 different scenarios.,0,0,0,0
+178,Requirement 178: Hostel management system should handle 8 different scenarios.,0,0,0,0
+179,Requirement 179: Hostel management system should handle 9 different scenarios.,0,0,0,0
+180,Requirement 180: Hostel management system should handle 10 different scenarios.,0,0,0,0
+181,Requirement 181: Hostel management system should handle 1 different scenarios.,0,0,0,0
+182,Requirement 182: Hostel management system should handle 2 different scenarios.,0,0,0,0
+183,Requirement 183: Hostel management system should handle 3 different scenarios.,0,0,0,0
+184,Requirement 184: Hostel management system should handle 4 different scenarios.,0,0,0,0
+185,Requirement 185: Hostel management system should handle 5 different scenarios.,0,0,0,0
+186,Requirement 186: Hostel management system should handle 6 different scenarios.,0,0,0,0
+187,Requirement 187: Hostel management system should handle 7 different scenarios.,0,0,0,0
+188,Requirement 188: Hostel management system should handle 8 different scenarios.,0,0,0,0
+189,Requirement 189: Hostel management system should handle 9 different scenarios.,0,0,0,0
+190,Requirement 190: Hostel management system should handle 10 different scenarios.,0,0,0,0
+191,Requirement 191: Hostel management system should handle 1 different scenarios.,0,0,0,0
+192,Requirement 192: Hostel management system should handle 2 different scenarios.,0,0,0,0
+193,Requirement 193: Hostel management system should handle 3 different scenarios.,0,0,0,0
+194,Requirement 194: Hostel management system should handle 4 different scenarios.,0,0,0,0
+195,Requirement 195: Hostel management system should handle 5 different scenarios.,0,0,0,0
+196,Requirement 196: Hostel management system should handle 6 different scenarios.,0,0,0,0
+197,Requirement 197: Hostel management system should handle 7 different scenarios.,0,0,0,0
+198,Requirement 198: Hostel management system should handle 8 different scenarios.,0,0,0,0
+199,Requirement 199: Hostel management system should handle 9 different scenarios.,0,0,0,0
+200,Requirement 200: Hostel management system should handle 10 different scenarios.,0,0,0,0
