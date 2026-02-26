@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;600;700&display=swap");
+
+.cl-internal-b3fm6y {
+    display: none !important;
+}
+
+* {
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: 500 !important;
+}
+
+.font-semibold {
+    font-weight: 700 !important;
+}
+
+th{
+    border-radius: 0px !important;
+}
+
+/* Landing Page Animations */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in {
+    animation: fade-in 0.6s ease-out;
+}
+
+.animate-fade-in-up {
+    animation: fade-in-up 0.8s ease-out;
+}
+
+.animate-fade-in-up.delay-100 {
+    animation-delay: 0.1s;
+    animation-fill-mode: both;
+}
+
+.animate-fade-in-up.delay-200 {
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+}
+
+.animate-fade-in-up.delay-300 {
+    animation-delay: 0.3s;
+    animation-fill-mode: both;
+}
