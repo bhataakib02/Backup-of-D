@@ -1,0 +1,119 @@
+# ITDR System Configuration
+
+# Dataset Configuration
+datasets:
+  lanl:
+    enabled: true
+    path: "data/raw/lanl"
+    auth_log_file: "auth.txt"
+  cert:
+    enabled: true
+    path: "data/raw/cert"
+  
+  # Processing
+  window_size_days: 30
+  sequence_length: 50
+  train_test_split: 0.8
+
+# Feature Engineering
+features:
+  temporal:
+    enabled: true
+    include_hour: true
+    include_day_of_week: true
+    include_time_since_last: true
+  
+  location:
+    enabled: true
+    include_ip: true
+    include_geolocation: true
+    detect_impossible_travel: true
+    impossible_travel_threshold_kmh: 1000  # km/h
+  
+  behavioral:
+    enabled: true
+    include_device: true
+    include_resource_access: true
+    include_privilege_usage: true
+  
+  sequence:
+    enabled: true
+    max_sequence_length: 50
+
+# Model Configuration
+models:
+  behavioral:
+    type: "lstm"  # or "gru"
+    embedding_dim: 64
+    hidden_dim: 128
+    num_layers: 2
+    dropout: 0.2
+    learning_rate: 0.001
+    batch_size: 32
+    epochs: 50
+  
+  anomaly:
+    type: "isolation_forest"  # or "autoencoder"
+    contamination: 0.1
+    n_estimators: 100
+
+# Risk Scoring
+risk:
+  weights:
+    behavioral: 0.35
+    temporal: 0.20
+    privilege: 0.25
+    location: 0.15
+    mitre: 0.05
+  
+  thresholds:
+    low: 0.3
+    medium: 0.7
+    high: 0.85
+
+# Response Actions
+response:
+  actions:
+    monitor_only:
+      threshold: 0.3
+    alert_analyst:
+      threshold: 0.5
+    force_reauth:
+      threshold: 0.7
+    step_up_mfa:
+      threshold: 0.85
+    disable_account:
+      threshold: 0.95
+
+# MITRE ATT&CK Mapping
+mitre:
+  enabled: true
+  tactics:
+    - TA0001  # Initial Access
+    - TA0003  # Persistence
+    - TA0008  # Lateral Movement
+  techniques:
+    - T1078   # Valid Accounts
+    - T1133   # External Remote Services
+    - T1098   # Account Manipulation
+    - T1021   # Remote Services
+
+# Explainability
+explainability:
+  enabled: true
+  method: "shap"  # or "gradient", "attention"
+  top_features: 5
+  generate_natural_language: true
+
+# Dashboard
+dashboard:
+  host: "0.0.0.0"
+  port: 5000
+  debug: false
+
+# Logging
+logging:
+  level: "INFO"
+  file: "logs/itdr.log"
+  audit_file: "logs/audit.log"
+

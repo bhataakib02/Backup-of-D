@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  itdr-system:
+    build: .
+    container_name: itdr-system
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./config:/app/config
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+
