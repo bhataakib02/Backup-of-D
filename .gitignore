@@ -1,74 +1,11 @@
-# Exclude DataDayWise folder
-DataDayWise/
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# Virtual environments
-venv/
-ENV/
-env/
-.venv/
-**/venv/
-**/env/
-**/.venv/
-
-# Node modules
-node_modules/
-**/node_modules/
-package-lock.json
-yarn.lock
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-
-# Environment variables
-.env
-.env.local
-
-# OS
-Thumbs.db
-.DS_Store
-# Large ZIP files
-Indian_bovine_breeds*.zip
-Ayusutra.zip
-
-# Specific Large Files (>100MB)
-auth.txt
-*.pth
-*.lib
-*.dll
-*.onnx.backup
-*.pack
-
-# Windows system folders (prevent accidental commits of recycle bin / system data)
+# System files
 System Volume Information/
 $RECYCLE.BIN/
 desktop.ini
+thumbs.db
+.DS_Store
+
+# Everything else will be included as per user request.
+# Note: Files > 100MB will be split into chunks before upload.
+# Exclude original large files before splitting
+*.orig
