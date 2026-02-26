@@ -1,0 +1,9 @@
+{
+  "/not-found": "app/not-found.js",
+  "/ids-ips/page": "app/ids-ips/page.js",
+  "/malware-detection/page": "app/malware-detection/page.js",
+  "/threat-intelligence/page": "app/threat-intelligence/page.js",
+  "/incident-response/page": "app/incident-response/page.js",
+  "/forensic-analysis/page": "app/forensic-analysis/page.js",
+  "/dashboard/page": "app/dashboard/page.js"
+}
