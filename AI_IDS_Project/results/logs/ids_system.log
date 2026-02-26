@@ -1,0 +1,1403 @@
+2025-09-27 00:31:30,491 - src.performance_optimizer - [32mINFO[0m - Performance optimizer initialized
+2025-09-27 00:31:31,002 - src.alert_system - [32mINFO[0m - Alert system initialized
+2025-09-27 00:31:31,020 - src.performance_optimizer - [32mINFO[0m - Performance optimizer started
+2025-09-27 00:31:31,036 - __main__ - [32mINFO[0m - Starting IDS Web Application
+2025-09-27 00:31:31,036 - __main__ - [32mINFO[0m - Configuration: {'host': '0.0.0.0', 'port': 5000, 'debug': False, 'secret_key': 'your-secret-key-change-this', 'static_folder': 'static', 'template_folder': 'templates', 'max_content_length': 16777216, 'upload_folder': 'uploads'}
+2025-09-27 00:31:32,360 - __main__ - [31mERROR[0m - Error getting network interfaces: [WinError 2] The system cannot find the file specified
+2025-09-27 00:31:32,382 - __main__ - [32mINFO[0m - Client connected
+2025-09-27 00:31:38,256 - src.alert_system - [32mINFO[0m - Alert system initialized
+2025-09-27 00:31:38,269 - src.real_time_monitor - [32mINFO[0m - Real-time monitor initialized
+2025-09-27 00:31:43,523 - __main__ - [32mINFO[0m - Client disconnected
+2025-09-27 00:31:44,405 - __main__ - [31mERROR[0m - Error getting network interfaces: [WinError 2] The system cannot find the file specified
+2025-09-27 00:31:44,624 - __main__ - [32mINFO[0m - Client connected
+2025-09-27 00:32:01,052 - __main__ - [31mERROR[0m - Error in background task: Object of type datetime is not JSON serializable
+2025-09-27 00:33:19,847 - __main__ - [32mINFO[0m - Shutting down AI-IDS Web Application...
+2025-09-27 00:33:19,851 - src.performance_optimizer - [32mINFO[0m - Performance optimizer stopped
+2025-09-29 11:56:05,013 - src.phishing_detection - [32mINFO[0m - Phishing detector initialized
+2025-09-29 11:56:52,459 - src.phishing_detection - [32mINFO[0m - Phishing detector initialized
+2025-09-29 11:56:52,484 - src.malware_detection - [32mINFO[0m - Malware detector initialized
+2025-09-29 11:58:22,337 - src.phishing_detection - [32mINFO[0m - Phishing detector initialized
+2025-09-29 11:58:22,354 - src.malware_detection - [32mINFO[0m - Malware detector initialized
+2025-09-29 11:59:03,089 - src.phishing_detection - [32mINFO[0m - Phishing detector initialized
+2025-09-29 11:59:03,141 - src.malware_detection - [32mINFO[0m - Malware detector initialized
+2025-09-29 11:59:40,310 - src.phishing_detection - [32mINFO[0m - Phishing detector initialized
+2025-09-29 11:59:40,367 - src.malware_detection - [32mINFO[0m - Malware detector initialized
+2025-09-29 12:00:20,617 - src.phishing_detection - [32mINFO[0m - Phishing detector initialized
+2025-09-29 12:00:20,683 - src.malware_detection - [32mINFO[0m - Malware detector initialized
+2025-09-29 12:04:09,106 - src.phishing_detection - [32mINFO[0m - Phishing detector initialized
+2025-09-29 12:04:09,212 - src.malware_detection - [32mINFO[0m - Malware detector initialized
+2025-09-29 12:04:15,379 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:04:15,380 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:04:16,324 - src.alert_system - [32mINFO[0m - Alert system initialized
+2025-09-29 12:04:16,332 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:04:16,333 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:04:16,419 - src.performance_optimizer - [32mINFO[0m - Performance optimizer initialized
+2025-09-29 12:04:16,420 - src.performance_optimizer - [32mINFO[0m - Performance optimizer started
+2025-09-29 12:04:39,735 - src.phishing_detection - [32mINFO[0m - Phishing detector initialized
+2025-09-29 12:04:39,774 - src.malware_detection - [32mINFO[0m - Malware detector initialized
+2025-09-29 12:04:42,289 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:04:42,292 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:04:42,583 - src.alert_system - [32mINFO[0m - Alert system initialized
+2025-09-29 12:04:42,587 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:04:42,587 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:04:42,619 - src.performance_optimizer - [32mINFO[0m - Performance optimizer initialized
+2025-09-29 12:04:42,623 - src.performance_optimizer - [32mINFO[0m - Performance optimizer started
+2025-09-29 12:05:33,198 - app - [31mERROR[0m - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 52, in index
+    return render_template('index.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2025-09-29 12:06:15,260 - app - [31mERROR[0m - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 52, in index
+    return render_template('index.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2025-09-29 12:10:32,680 - src.phishing_detection - [32mINFO[0m - Phishing detector initialized
+2025-09-29 12:10:32,717 - src.malware_detection - [32mINFO[0m - Malware detector initialized
+2025-09-29 12:10:36,415 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:10:36,417 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:10:36,717 - src.alert_system - [32mINFO[0m - Alert system initialized
+2025-09-29 12:10:36,720 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:10:36,722 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:10:36,753 - src.performance_optimizer - [32mINFO[0m - Performance optimizer initialized
+2025-09-29 12:10:36,756 - src.performance_optimizer - [32mINFO[0m - Performance optimizer started
+2025-09-29 12:12:34,990 - src.phishing_detection - [32mINFO[0m - Phishing detector initialized
+2025-09-29 12:12:35,029 - src.malware_detection - [32mINFO[0m - Malware detector initialized
+2025-09-29 12:12:36,735 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:12:36,736 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:12:36,905 - src.alert_system - [32mINFO[0m - Alert system initialized
+2025-09-29 12:12:36,905 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:12:36,905 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:12:36,922 - src.performance_optimizer - [32mINFO[0m - Performance optimizer initialized
+2025-09-29 12:12:36,922 - src.performance_optimizer - [32mINFO[0m - Performance optimizer started
+2025-09-29 12:12:47,620 - app - [31mERROR[0m - Exception on /dashboard [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 62, in dashboard
+    return render_template('dashboard.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dashboard.html
+2025-09-29 12:12:48,692 - app - [31mERROR[0m - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 802, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 777, in handle_http_exception
+    return self.ensure_sync(handler)(e)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 480, in not_found
+    return render_template('error.html', error='Page not found'), 404
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: error.html
+2025-09-29 12:12:49,994 - app - [31mERROR[0m - Exception on /dashboard [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 62, in dashboard
+    return render_template('dashboard.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dashboard.html
+2025-09-29 12:12:50,312 - app - [31mERROR[0m - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 802, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 777, in handle_http_exception
+    return self.ensure_sync(handler)(e)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 480, in not_found
+    return render_template('error.html', error='Page not found'), 404
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: error.html
+2025-09-29 12:13:23,496 - app - [31mERROR[0m - Exception on /dashboard [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 62, in dashboard
+    return render_template('dashboard.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dashboard.html
+2025-09-29 12:13:23,715 - app - [31mERROR[0m - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 802, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 777, in handle_http_exception
+    return self.ensure_sync(handler)(e)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 480, in not_found
+    return render_template('error.html', error='Page not found'), 404
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: error.html
+2025-09-29 12:13:25,044 - app - [31mERROR[0m - Exception on /dashboard [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 62, in dashboard
+    return render_template('dashboard.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dashboard.html
+2025-09-29 12:13:25,360 - app - [31mERROR[0m - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 802, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 777, in handle_http_exception
+    return self.ensure_sync(handler)(e)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 480, in not_found
+    return render_template('error.html', error='Page not found'), 404
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: error.html
+2025-09-29 12:15:43,569 - src.phishing_detection - [32mINFO[0m - Phishing detector initialized
+2025-09-29 12:15:43,569 - src.malware_detection - [32mINFO[0m - Malware detector initialized
+2025-09-29 12:15:44,237 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:15:44,237 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:15:44,323 - src.alert_system - [32mINFO[0m - Alert system initialized
+2025-09-29 12:15:44,324 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:15:44,324 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:15:44,330 - src.performance_optimizer - [32mINFO[0m - Performance optimizer initialized
+2025-09-29 12:15:44,330 - src.performance_optimizer - [32mINFO[0m - Performance optimizer started
+2025-09-29 12:15:55,488 - app - [31mERROR[0m - Exception on /command-center [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 57, in command_center
+    return render_template('cyber_dashboard.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: cyber_dashboard.html
+2025-09-29 12:15:55,570 - app - [31mERROR[0m - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 802, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 777, in handle_http_exception
+    return self.ensure_sync(handler)(e)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 480, in not_found
+    return render_template('error.html', error='Page not found'), 404
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: error.html
+2025-09-29 12:16:31,320 - app - [31mERROR[0m - Exception on /command-center [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 57, in command_center
+    return render_template('cyber_dashboard.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: cyber_dashboard.html
+2025-09-29 12:16:47,530 - app - [31mERROR[0m - Exception on /command-center [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 57, in command_center
+    return render_template('cyber_dashboard.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: cyber_dashboard.html
+2025-09-29 12:16:58,475 - app - [31mERROR[0m - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 52, in index
+    return render_template('index.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2025-09-29 12:17:35,648 - src.phishing_detection - [32mINFO[0m - Phishing detector initialized
+2025-09-29 12:17:35,670 - src.malware_detection - [32mINFO[0m - Malware detector initialized
+2025-09-29 12:17:36,776 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:17:36,776 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:17:36,891 - src.alert_system - [32mINFO[0m - Alert system initialized
+2025-09-29 12:17:36,891 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:17:36,891 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:17:36,913 - src.performance_optimizer - [32mINFO[0m - Performance optimizer initialized
+2025-09-29 12:17:36,914 - src.performance_optimizer - [32mINFO[0m - Performance optimizer started
+2025-09-29 12:18:04,936 - src.phishing_detection - [32mINFO[0m - Phishing detector initialized
+2025-09-29 12:18:04,946 - src.malware_detection - [32mINFO[0m - Malware detector initialized
+2025-09-29 12:18:05,910 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:18:05,910 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:18:06,009 - src.alert_system - [32mINFO[0m - Alert system initialized
+2025-09-29 12:18:06,010 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:18:06,011 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:18:06,018 - src.performance_optimizer - [32mINFO[0m - Performance optimizer initialized
+2025-09-29 12:18:06,018 - src.performance_optimizer - [32mINFO[0m - Performance optimizer started
+2025-09-29 12:18:11,802 - app - [31mERROR[0m - Exception on /command-center [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 57, in command_center
+    return render_template('cyber_dashboard.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: cyber_dashboard.html
+2025-09-29 12:18:11,949 - app - [31mERROR[0m - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 802, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 777, in handle_http_exception
+    return self.ensure_sync(handler)(e)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 480, in not_found
+    return render_template('error.html', error='Page not found'), 404
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: error.html
+2025-09-29 12:18:14,040 - app - [31mERROR[0m - Exception on /command-center [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 57, in command_center
+    return render_template('cyber_dashboard.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: cyber_dashboard.html
+2025-09-29 12:18:14,362 - app - [31mERROR[0m - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 802, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 777, in handle_http_exception
+    return self.ensure_sync(handler)(e)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 480, in not_found
+    return render_template('error.html', error='Page not found'), 404
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: error.html
+2025-09-29 12:18:46,515 - src.phishing_detection - [32mINFO[0m - Phishing detector initialized
+2025-09-29 12:18:46,536 - src.malware_detection - [32mINFO[0m - Malware detector initialized
+2025-09-29 12:18:47,313 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:18:47,313 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:18:47,381 - src.alert_system - [32mINFO[0m - Alert system initialized
+2025-09-29 12:18:47,383 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:18:47,383 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:18:47,389 - src.performance_optimizer - [32mINFO[0m - Performance optimizer initialized
+2025-09-29 12:18:47,389 - src.performance_optimizer - [32mINFO[0m - Performance optimizer started
+2025-09-29 12:18:51,879 - app - [31mERROR[0m - Exception on /command-center [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 57, in command_center
+    return render_template('cyber_dashboard.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: cyber_dashboard.html
+2025-09-29 12:18:52,011 - app - [31mERROR[0m - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 802, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 777, in handle_http_exception
+    return self.ensure_sync(handler)(e)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 480, in not_found
+    return render_template('error.html', error='Page not found'), 404
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: error.html
+2025-09-29 12:18:53,214 - app - [31mERROR[0m - Exception on /command-center [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 57, in command_center
+    return render_template('cyber_dashboard.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: cyber_dashboard.html
+2025-09-29 12:18:53,531 - app - [31mERROR[0m - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 802, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 777, in handle_http_exception
+    return self.ensure_sync(handler)(e)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 480, in not_found
+    return render_template('error.html', error='Page not found'), 404
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: error.html
+2025-09-29 12:19:02,696 - app - [31mERROR[0m - Exception on /dashboard [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 62, in dashboard
+    return render_template('dashboard.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dashboard.html
+2025-09-29 12:19:02,744 - app - [31mERROR[0m - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 802, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 777, in handle_http_exception
+    return self.ensure_sync(handler)(e)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 480, in not_found
+    return render_template('error.html', error='Page not found'), 404
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: error.html
+2025-09-29 12:19:09,160 - app - [31mERROR[0m - Exception on /reports [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 67, in reports
+    return render_template('reports.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: reports.html
+2025-09-29 12:19:09,472 - app - [31mERROR[0m - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 802, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 777, in handle_http_exception
+    return self.ensure_sync(handler)(e)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 480, in not_found
+    return render_template('error.html', error='Page not found'), 404
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: error.html
+2025-09-29 12:20:08,412 - src.phishing_detection - [32mINFO[0m - Phishing detector initialized
+2025-09-29 12:20:08,481 - src.malware_detection - [32mINFO[0m - Malware detector initialized
+2025-09-29 12:20:12,171 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:20:12,171 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:20:12,273 - src.alert_system - [32mINFO[0m - Alert system initialized
+2025-09-29 12:20:12,274 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:20:12,274 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:20:12,287 - src.performance_optimizer - [32mINFO[0m - Performance optimizer initialized
+2025-09-29 12:20:12,288 - src.performance_optimizer - [32mINFO[0m - Performance optimizer started
+2025-09-29 12:21:23,630 - src.phishing_detection - [32mINFO[0m - Phishing detector initialized
+2025-09-29 12:21:23,764 - src.malware_detection - [32mINFO[0m - Malware detector initialized
+2025-09-29 12:21:33,531 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:21:33,538 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:21:34,226 - src.alert_system - [32mINFO[0m - Alert system initialized
+2025-09-29 12:21:34,236 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:21:34,239 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:21:34,353 - src.performance_optimizer - [32mINFO[0m - Performance optimizer initialized
+2025-09-29 12:21:34,355 - src.performance_optimizer - [32mINFO[0m - Performance optimizer started
+2025-09-29 12:21:45,181 - app - [31mERROR[0m - Exception on /command-center [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 57, in command_center
+    return render_template('cyber_dashboard.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: cyber_dashboard.html
+2025-09-29 12:21:45,684 - app - [31mERROR[0m - Exception on /command-center [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 57, in command_center
+    return render_template('cyber_dashboard.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: cyber_dashboard.html
+2025-09-29 12:21:46,326 - app - [31mERROR[0m - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 802, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 777, in handle_http_exception
+    return self.ensure_sync(handler)(e)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 480, in not_found
+    return render_template('error.html', error='Page not found'), 404
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: error.html
+2025-09-29 12:21:46,724 - app - [31mERROR[0m - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 802, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 777, in handle_http_exception
+    return self.ensure_sync(handler)(e)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 480, in not_found
+    return render_template('error.html', error='Page not found'), 404
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: error.html
+2025-09-29 12:23:26,887 - src.phishing_detection - [32mINFO[0m - Phishing detector initialized
+2025-09-29 12:23:27,006 - src.malware_detection - [32mINFO[0m - Malware detector initialized
+2025-09-29 12:23:33,000 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:23:33,001 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:23:33,636 - src.alert_system - [32mINFO[0m - Alert system initialized
+2025-09-29 12:23:33,641 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:23:33,642 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:23:33,723 - src.performance_optimizer - [32mINFO[0m - Performance optimizer initialized
+2025-09-29 12:23:33,725 - src.performance_optimizer - [32mINFO[0m - Performance optimizer started
+2025-09-29 12:23:34,469 - app - [31mERROR[0m - Exception on /dashboard [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 62, in dashboard
+    return render_template('dashboard.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dashboard.html
+2025-09-29 12:24:15,080 - app - [31mERROR[0m - Exception on /dashboard [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 62, in dashboard
+    return render_template('dashboard.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dashboard.html
+2025-09-29 12:24:46,022 - app - [31mERROR[0m - Exception on /dashboard [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 62, in dashboard
+    return render_template('dashboard.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dashboard.html
+2025-09-29 12:25:38,362 - src.phishing_detection - [32mINFO[0m - Phishing detector initialized
+2025-09-29 12:25:38,437 - src.malware_detection - [32mINFO[0m - Malware detector initialized
+2025-09-29 12:25:44,429 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:25:44,430 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:25:44,756 - src.alert_system - [32mINFO[0m - Alert system initialized
+2025-09-29 12:25:44,760 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:25:44,760 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:25:44,815 - src.performance_optimizer - [32mINFO[0m - Performance optimizer initialized
+2025-09-29 12:25:44,817 - src.performance_optimizer - [32mINFO[0m - Performance optimizer started
+2025-09-29 12:25:50,846 - app - [31mERROR[0m - Exception on /command-center [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 57, in command_center
+    return render_template('cyber_dashboard.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: cyber_dashboard.html
+2025-09-29 12:25:51,190 - app - [31mERROR[0m - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 802, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 777, in handle_http_exception
+    return self.ensure_sync(handler)(e)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 480, in not_found
+    return render_template('error.html', error='Page not found'), 404
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: error.html
+2025-09-29 12:27:32,773 - src.phishing_detection - [32mINFO[0m - Phishing detector initialized
+2025-09-29 12:27:32,792 - src.malware_detection - [32mINFO[0m - Malware detector initialized
+2025-09-29 12:27:34,637 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:27:34,637 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:27:34,806 - src.alert_system - [32mINFO[0m - Alert system initialized
+2025-09-29 12:27:34,806 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:27:34,806 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:27:34,819 - src.performance_optimizer - [32mINFO[0m - Performance optimizer initialized
+2025-09-29 12:27:34,820 - src.performance_optimizer - [32mINFO[0m - Performance optimizer started
+2025-09-29 12:27:38,943 - app - [31mERROR[0m - Exception on /command-center [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 57, in command_center
+    return render_template('cyber_dashboard.html')
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: cyber_dashboard.html
+2025-09-29 12:27:39,386 - app - [31mERROR[0m - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 802, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 777, in handle_http_exception
+    return self.ensure_sync(handler)(e)  # type: ignore[no-any-return]
+  File "D:\AI_IDS_Project\app.py", line 480, in not_found
+    return render_template('error.html', error='Page not found'), 404
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\bhata\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: error.html
+2025-09-29 12:31:33,821 - src.phishing_detection - [32mINFO[0m - Phishing detector initialized
+2025-09-29 12:31:33,911 - src.malware_detection - [32mINFO[0m - Malware detector initialized
+2025-09-29 12:31:40,013 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:31:40,013 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:31:40,337 - src.alert_system - [32mINFO[0m - Alert system initialized
+2025-09-29 12:31:40,342 - src.fusion_correlation_engine - [32mINFO[0m - Loaded 3 default correlation rules
+2025-09-29 12:31:40,342 - src.fusion_correlation_engine - [32mINFO[0m - Fusion Correlation Engine initialized
+2025-09-29 12:31:40,382 - src.performance_optimizer - [32mINFO[0m - Performance optimizer initialized
+2025-09-29 12:31:40,384 - src.performance_optimizer - [32mINFO[0m - Performance optimizer started
