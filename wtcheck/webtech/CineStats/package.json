@@ -1,0 +1,38 @@
+{
+  "name": "cinestats",
+  "version": "1.0.0",
+  "description": "CineStats - Box Office Mojo Clone (All-Time Box Office) using Node.js, Express, MongoDB, and vanilla HTML/CSS/JS",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "seed": "node seed/seed.js",
+    "import:tmdb": "node scripts/import-tmdb.js"
+  },
+  "keywords": [
+    "box-office",
+    "movies",
+    "express",
+    "mongodb",
+    "vanilla-js"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "lowdb": "^7.0.1",
+    "nanoid": "^5.0.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
+
+

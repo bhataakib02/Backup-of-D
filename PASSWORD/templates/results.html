@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Audit Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <script src="{{ url_for('static', filename='d3.min.js') }}"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="neon">Audit Results</h1>
+        <p>Check outputs/ folder for CSV, JSON, HTML, PDF reports.</p>
+        <div id="chart"></div>
+        <a href="/" class="btn">Back</a>
+    </div>
+    <script>
+        // Placeholder D3 chart
+        d3.select("#chart").append("svg")
+            .attr("width", 400)
+            .attr("height", 400)
+            .append("circle")
+            .attr("cx", 200)
+            .attr("cy", 200)
+            .attr("r", 100)
+            .attr("fill", "#00ff88")
+            .attr("opacity", 0.5);
+    </script>
+</body>
+</html>

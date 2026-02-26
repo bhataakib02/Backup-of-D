@@ -1,0 +1,178 @@
+# Core Framework
+Flask==2.3.3
+Flask-CORS==4.0.0
+Flask-SQLAlchemy==3.0.5
+Flask-Migrate==4.0.5
+Flask-JWT-Extended==4.5.3
+Flask-Limiter==3.5.0
+
+# Database
+SQLAlchemy==2.0.21
+psycopg2-binary==2.9.7
+alembic==1.12.0
+
+# Machine Learning & AI
+tensorflow==2.13.0
+torch==2.0.1
+scikit-learn==1.3.0
+xgboost==1.7.6
+numpy==1.24.3
+pandas==2.0.3
+scipy==1.11.1
+
+# Deep Learning
+keras==2.13.1
+transformers==4.33.2
+huggingface-hub==0.16.4
+
+# Natural Language Processing
+nltk==3.8.1
+spacy==3.6.1
+textblob==0.17.1
+
+# Computer Vision
+opencv-python==4.8.0.76
+Pillow==10.0.0
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# Network Analysis
+scapy==2.5.0
+netaddr==0.8.0
+dnspython==2.4.2
+requests==2.31.0
+urllib3==2.0.4
+
+# Security & Malware Analysis
+yara-python==4.3.1
+pefile==2023.2.7
+python-magic==0.4.27
+hashlib2==1.0.1
+cryptography==41.0.3
+
+# Threat Intelligence APIs
+virustotal-api==1.1.11
+abuseipdb==0.1.0
+otx-python-sdk==1.5.7
+
+# Data Processing
+beautifulsoup4==4.12.2
+lxml==4.9.3
+html5lib==1.1
+feedparser==6.0.10
+
+# Email Processing
+email-validator==2.0.0
+imapclient==2.3.1
+imaplib2==3.6
+
+# File Processing
+python-magic-bin==0.4.14
+chardet==5.1.0
+pypdf2==3.0.1
+python-docx==0.8.11
+
+# Web Scraping & Automation
+selenium==4.11.2
+playwright==1.36.0
+beautifulsoup4==4.12.2
+
+# API & Web Services
+fastapi==0.101.1
+uvicorn==0.23.2
+gunicorn==21.2.0
+celery==5.3.1
+redis==4.6.0
+
+# Monitoring & Logging
+prometheus-client==0.17.1
+structlog==23.1.0
+python-json-logger==2.0.7
+
+# Configuration & Environment
+python-dotenv==1.0.0
+pydantic==2.1.1
+pydantic-settings==2.0.2
+
+# Testing
+pytest==7.4.0
+pytest-cov==4.1.0
+pytest-mock==3.11.1
+httpx==0.24.1
+
+# Development Tools
+black==23.7.0
+flake8==6.0.0
+mypy==1.5.1
+pre-commit==3.3.3
+
+# Utilities
+tqdm==4.65.0
+click==8.1.7
+rich==13.5.2
+typer==0.9.0
+
+# Sandbox & Containerization
+docker==6.1.3
+kubernetes==27.2.0
+
+# Time & Date
+python-dateutil==2.8.2
+pytz==2023.3
+
+# JSON & Data Serialization
+orjson==3.9.4
+msgpack==1.0.5
+
+# Async Support
+aiohttp==3.8.5
+asyncio==3.4.3
+
+# Caching
+redis==4.6.0
+memcached==1.6.3
+
+# File System
+watchdog==3.0.0
+pathlib2==2.3.7
+
+# Compression
+py7zr==0.20.6
+rarfile==4.0
+
+# Image Processing
+imageio==2.31.1
+scikit-image==0.21.0
+
+# Statistical Analysis
+statsmodels==0.14.0
+plotly==5.15.0
+
+# Explainable AI
+shap==0.42.1
+lime==0.2.0.1
+eli5==0.13.0
+
+# Graph Analysis
+networkx==3.1
+igraph==0.10.4
+
+# Time Series
+prophet==1.1.4
+tslearn==0.6.2
+
+# Feature Engineering
+featuretools==1.25.0
+tsfresh==0.20.1
+
+# Model Deployment
+mlflow==2.5.0
+bentoml==1.0.18
+
+# Cloud Integration
+boto3==1.28.25
+azure-storage-blob==12.17.0
+google-cloud-storage==2.10.0
+
+
+

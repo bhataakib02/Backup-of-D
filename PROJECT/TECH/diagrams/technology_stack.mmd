@@ -1,0 +1,48 @@
+graph TB
+    subgraph "🛠️ SPCMS TECHNOLOGY STACK"
+        subgraph "📱 PRESENTATION LAYER"
+            PT1[📱 React Native<br/>iOS & Android<br/>TypeScript<br/>Expo Framework]
+            PT2[🌐 React.js<br/>Web Application<br/>Redux State<br/>Material-UI]
+            PT3[🖥️ Admin Dashboard<br/>Real-time Analytics<br/>Chart.js<br/>Role-based Access]
+            PT4[🏪 Kiosk Interface<br/>Touch Optimized<br/>Offline Capable<br/>Multilingual]
+        end
+        
+        subgraph "🌐 API GATEWAY LAYER"
+            AGT1[🔐 Kong Gateway<br/>JWT Authentication<br/>OAuth 2.0<br/>Rate Limiting]
+            AGT2[🛡️ Security Layer<br/>SSL/TLS<br/>CORS Handling<br/>Input Validation]
+            AGT3[📝 Documentation<br/>Swagger/OpenAPI<br/>Version Management<br/>Health Checks]
+        end
+        
+        subgraph "⚙️ BUSINESS LOGIC LAYER"
+            BLT1[⚙️ Node.js<br/>Express.js<br/>Async/Await<br/>Error Handling]
+            BLT2[🐍 Python<br/>FastAPI<br/>Async Processing<br/>ML Model Serving]
+            BLT3[🔄 Message Queue<br/>Apache Kafka<br/>Redis Pub/Sub<br/>Event-driven]
+        end
+        
+        subgraph "🗄️ DATA LAYER"
+            DPT1[🐘 PostgreSQL<br/>ACID Transactions<br/>Connection Pooling<br/>Read Replicas]
+            DPT2[🍃 MongoDB<br/>Document Storage<br/>Sharding<br/>Replica Sets]
+            DPT3[⚡ Redis<br/>In-memory Cache<br/>Session Storage<br/>Pub/Sub]
+            DPT4[📊 InfluxDB<br/>Time Series<br/>Real-time Queries<br/>Data Retention]
+        end
+        
+        subgraph "☁️ INFRASTRUCTURE LAYER"
+            IT1[☁️ AWS/Azure<br/>Auto Scaling<br/>Load Balancers<br/>Multi-region]
+            IT2[🐳 Docker<br/>Containerization<br/>Multi-stage Builds<br/>Security Scanning]
+            IT3[☸️ Kubernetes<br/>Orchestration<br/>Service Discovery<br/>Rolling Updates]
+            IT4[🔧 CI/CD<br/>GitHub Actions<br/>Automated Testing<br/>Deployment]
+        end
+    end
+    
+    PT1 & PT2 & PT3 & PT4 --> AGT1 & AGT2 & AGT3
+    AGT1 & AGT2 & AGT3 --> BLT1 & BLT2 & BLT3
+    BLT1 & BLT2 & BLT3 --> DPT1 & DPT2 & DPT3 & DPT4
+    DPT1 & DPT2 & DPT3 & DPT4 --> IT1 & IT2 & IT3 & IT4
+    
+    style PT1 fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    style PT2 fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    style PT3 fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    style PT4 fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    style AGT1 fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    style AGT2 fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    style AGT3 fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px

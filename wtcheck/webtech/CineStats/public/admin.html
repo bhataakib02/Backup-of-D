@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Admin – CineStats</title>
+    <meta name="description" content="Admin dashboard for CineStats." />
+    <link rel="icon" href="/assets/favicon.ico" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="loader"><div class="ring"></div></div>
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html"><img src="/assets/logo.svg" alt="CineStats" /><span>CineStats</span></a>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="all-movies.html">All Movies</a>
+          <a href="top10.html">Top 10</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="actions">
+          <button class="btn" id="themeToggle">Dark/Light</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container" style="padding:18px 0">
+      <div id="loginView" class="glass" style="padding:12px; max-width:520px; margin:0 auto">
+        <h2>Admin Login</h2>
+        <form id="loginForm">
+          <div class="field"><label>Username</label><input name="username" required /></div>
+          <div class="field"><label>Password</label><input name="password" type="password" required /></div>
+          <button class="btn" type="submit">Login</button>
+          <div id="loginMsg" class="error" style="margin-top:10px"></div>
+        </form>
+      </div>
+
+      <div id="appView" style="display:none">
+        <div class="glass" style="padding:12px">
+          <div class="row" style="justify-content: space-between; align-items:center">
+            <h2>Movies</h2>
+            <div class="row"><button class="btn" id="logout">Logout</button><button class="btn" id="newMovie">New Movie</button></div>
+          </div>
+          <div id="moviesTable"></div>
+        </div>
+        <div class="space"></div>
+        <div class="glass" style="padding:12px">
+          <h2>Contact Messages</h2>
+          <div id="contactsTable"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <small class="muted">© <span id="year"></span> CineStats</small>
+        <div class="social"><a href="#">𝕏</a><a href="#">GH</a><a href="#">YT</a></div>
+      </div>
+    </footer>
+
+    <script src="/js/main.js" type="module"></script>
+    <script src="/js/admin.js" type="module"></script>
+  </body>
+  </html>
+
+

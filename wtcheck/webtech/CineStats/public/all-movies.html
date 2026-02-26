@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>All Movies – CineStats</title>
+    <meta name="description" content="Browse all movies with search, sort, and pagination." />
+    <link rel="icon" href="/assets/favicon.ico" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="loader"><div class="ring"></div></div>
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html"><img src="/assets/logo.svg" alt="CineStats" /><span>CineStats</span></a>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="all-movies.html">All Movies</a>
+          <a href="top10.html">Top 10</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="actions">
+          <button class="btn" id="themeToggle">Dark/Light</button>
+          <a class="btn" href="admin.html">Admin</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container" style="padding:18px 0">
+      <div class="glass" style="padding:12px">
+        <div class="row">
+          <div class="field" style="flex:1; min-width:240px">
+            <label>Search</label>
+            <input id="search" type="search" placeholder="Title, director, genre, or year" />
+          </div>
+          <div class="field">
+            <label>Industry</label>
+            <select id="industry">
+              <option value="">All</option>
+              <option value="Hollywood">Hollywood</option>
+              <option value="Bollywood">Bollywood</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Sort By</label>
+            <select id="sort">
+              <option value="gross">Worldwide Gross</option>
+              <option value="year">Release Year</option>
+              <option value="alpha">Alphabetical</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Order</label>
+            <select id="order">
+              <option value="desc">Descending</option>
+              <option value="asc">Ascending</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="space"></div>
+      <div id="movies" class="grid"></div>
+      <div class="pagination" id="pager"></div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <small class="muted">© <span id="year"></span> CineStats</small>
+        <div class="social"><a href="#">𝕏</a><a href="#">GH</a><a href="#">YT</a></div>
+      </div>
+    </footer>
+
+    <script src="/js/main.js" type="module"></script>
+    <script src="/js/allMovies.js" type="module"></script>
+  </body>
+  </html>
+
+

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About – CineStats</title>
+    <meta name="description" content="About CineStats and data sources." />
+    <link rel="icon" href="/assets/favicon.ico" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="loader"><div class="ring"></div></div>
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html"><img src="/assets/logo.svg" alt="CineStats" /><span>CineStats</span></a>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="all-movies.html">All Movies</a>
+          <a href="top10.html">Top 10</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="actions">
+          <button class="btn" id="themeToggle">Dark/Light</button>
+          <a class="btn" href="admin.html">Admin</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container" style="padding:18px 0">
+      <div class="glass" style="padding:12px">
+        <h2>About CineStats</h2>
+        <p class="muted">CineStats is an educational project inspired by Box Office Mojo, focused on the All-Time Box Office section. It is built with Node.js, Express, MongoDB, and vanilla HTML/CSS/JS.</p>
+        <p class="muted">Data is demo/sample for non-commercial use. You can seed the database with included sample JSON. Credits to public sources and open-source community.</p>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <small class="muted">© <span id="year"></span> CineStats</small>
+        <div class="social"><a href="#">𝕏</a><a href="#">GH</a><a href="#">YT</a></div>
+      </div>
+    </footer>
+
+    <script src="/js/main.js" type="module"></script>
+  </body>
+  </html>
+
+

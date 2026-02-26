@@ -1,0 +1,59 @@
+graph TB
+    subgraph "📱 Mobile App Architecture"
+        subgraph "🎨 UI Layer"
+            UI1[📱 React Native<br/>Cross-platform]
+            UI2[🎨 Material Design<br/>Modern UI]
+            UI3[🌐 Multilingual<br/>Hindi Gujarati English]
+        end
+        
+        subgraph "🔄 State Management"
+            SM1[🔄 Redux Toolkit<br/>Global State]
+            SM2[💾 AsyncStorage<br/>Offline Data]
+            SM3[🔄 Background Sync<br/>Data Sync]
+        end
+        
+        subgraph "🚀 Core Features"
+            CF1[🎟️ Queue Booking<br/>QR Codes]
+            CF2[🗺️ Navigation<br/>GPS Maps]
+            CF3[🚨 Emergency SOS<br/>One-tap Alert]
+            CF4[📱 Notifications<br/>Push Alerts]
+        end
+        
+        subgraph "📱 Device Integration"
+            DI1[📍 GPS Location<br/>Tracking]
+            DI2[📷 Camera QR<br/>Scanner]
+            DI3[🔊 Audio Guide<br/>Voice Navigation]
+            DI4[📳 Haptic Feedback<br/>Touch Response]
+        end
+        
+        subgraph "🌐 API Integration"
+            API1[🌐 REST APIs<br/>HTTP Client]
+            API2[📡 WebSocket<br/>Real-time Data]
+            API3[🔐 Auth Manager<br/>Token Management]
+        end
+    end
+    
+    UI1 --> SM1
+    UI2 --> SM2
+    UI3 --> SM3
+    SM1 --> CF1
+    SM2 --> CF2
+    SM3 --> CF3
+    CF1 --> DI1
+    CF2 --> DI2
+    CF3 --> DI3
+    CF4 --> DI4
+    DI1 --> API1
+    DI2 --> API2
+    DI3 --> API3
+    
+    style UI1 fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    style UI2 fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    style UI3 fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    style SM1 fill:#e8f5e8,stroke:#388e3c,stroke-width:2px
+    style SM2 fill:#e8f5e8,stroke:#388e3c,stroke-width:2px
+    style SM3 fill:#e8f5e8,stroke:#388e3c,stroke-width:2px
+    style CF1 fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    style CF2 fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    style CF3 fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    style CF4 fill:#fff3e0,stroke:#f57c00,stroke-width:2px

@@ -1,0 +1,17 @@
+flask
+argon2-cffi
+pandas
+plotly
+reportlab
+pdfkit
+ldap3
+transformers
+scikit-learn
+requests
+boto3
+web3
+flask-socketio
+babel
+pynacl
+google-cloud-storage
+azure-storage-blob

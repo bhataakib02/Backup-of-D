@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Aegis Password Fortress</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <script src="{{ url_for('static', filename='d3.min.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.0/socket.io.js"></script>
+    <script src="{{ url_for('static', filename='strength.js') }}"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="neon">Aegis Password Fortress</h1>
+        <div class="input-group">
+            <input type="password" id="passwordInput" placeholder="Type your password..." oninput="checkStrength()">
+            <div id="strengthMeter"><div></div></div>
+            <p id="strengthText"></p>
+        </div>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" class="input-group">
+            <button type="submit" class="btn">Audit Passwords</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact – CineStats</title>
+    <meta name="description" content="Contact CineStats team." />
+    <link rel="icon" href="/assets/favicon.ico" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="loader"><div class="ring"></div></div>
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html"><img src="/assets/logo.svg" alt="CineStats" /><span>CineStats</span></a>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="all-movies.html">All Movies</a>
+          <a href="top10.html">Top 10</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="actions">
+          <button class="btn" id="themeToggle">Dark/Light</button>
+          <a class="btn" href="admin.html">Admin</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container" style="padding:18px 0; max-width:720px">
+      <div class="glass" style="padding:12px">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+          <div class="field"><label>Name</label><input name="name" required placeholder="Your name" /></div>
+          <div class="field"><label>Email</label><input name="email" type="email" required placeholder="you@example.com" /></div>
+          <div class="field"><label>Message</label><textarea name="message" rows="5" required placeholder="Your message"></textarea></div>
+          <button class="btn" type="submit">Send</button>
+          <div id="msg" class="muted" style="margin-top:10px"></div>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <small class="muted">© <span id="year"></span> CineStats</small>
+        <div class="social"><a href="#">𝕏</a><a href="#">GH</a><a href="#">YT</a></div>
+      </div>
+    </footer>
+
+    <script src="/js/main.js" type="module"></script>
+    <script src="/js/contact.js" type="module"></script>
+  </body>
+  </html>
+
+

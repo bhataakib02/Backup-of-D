@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Root Colors */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --glass-bg: rgba(255, 255, 255, 0.2);
+  --glass-border: rgba(255, 255, 255, 0.3);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --glass-bg: rgba(0, 0, 0, 0.2);
+    --glass-border: rgba(255, 255, 255, 0.1);
+  }
+}
+
+body {
+  background: linear-gradient(120deg,
+      #f0f8ff,
+      #e0e7ff,
+      #fdf2f8,
+      #f0f8ff);
+  background-size: 300% 300%;
+  animation: gradientShift 12s ease infinite;
+
+  color: var(--foreground);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Animated Gradient Background */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Glass Effect */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid var(--glass-border);
+  border-radius: 1rem;
+}
+
+/* Glow Animation */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+  }
+
+  50% {
+    box-shadow: 0 0 25px rgba(255, 0, 255, 0.6);
+  }
+
+  100% {
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+  }
+}
+
+.animate-glow {
+  animation: glow 3s ease-in-out infinite;
+}
+
+/* Section Styling (for consistent look across all) */
+section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: transparent;
+  /* keep transparent for animated background */
+  transition: all 0.4s ease;
+}
+
+/* === Global Animated Gradient Background === */
+body {
+  @apply bg-gradient-to-br from-[#1e1e2f] via-[#2b2e4a] to-[#1f1f2f] text-white;
+  background-size: 400% 400%;
+  animation: gradientFlow 15s ease infinite;
+}
+
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.section-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 6px;
+  margin: 0.5rem auto 0;
+  border-radius: 9999px;
+  background: linear-gradient(to right, #a855f7, #ec4899);
+}

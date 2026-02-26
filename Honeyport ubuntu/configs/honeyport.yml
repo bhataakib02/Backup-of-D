@@ -1,0 +1,67 @@
+# Honeyport Configuration File
+# Professional Network Honeypot System
+
+# Ports to listen on (honeypot traps)
+ports: [22, 80, 443, 445, 3389, 23, 21, 25, 53, 110, 143, 993, 995]
+
+# Protocols to support
+protocols: ['tcp']
+
+# Host to bind to (0.0.0.0 for all interfaces)
+host: '0.0.0.0'
+
+# Alerting configuration
+alerts:
+  enabled: true
+  telegram_token: null  # Set your Telegram bot token
+  telegram_chat_id: null  # Set your Telegram chat ID
+  discord_webhook: null  # Set your Discord webhook URL
+  email_smtp_server: null  # SMTP server for email alerts
+  email_smtp_port: 587
+  email_username: null  # SMTP username
+  email_password: null  # SMTP password
+  email_to: null  # Email address to send alerts to
+  rate_limit_minutes: 5  # Rate limit alerts per IP
+
+# IP Blocking configuration
+blocking:
+  enabled: true
+  auto_block: false  # Start with manual approval for safety
+  block_duration_hours: 24
+  whitelist_ips:
+    - '127.0.0.1'
+    - '::1'
+    - '192.168.1.1'  # Add your router IP
+  whitelist_ranges:
+    - '192.168.0.0/16'  # Local network
+    - '10.0.0.0/8'      # Private network
+    - '172.16.0.0/12'   # Private network
+
+# GeoIP lookup configuration
+geoip:
+  enabled: true
+  database_path: 'data/GeoLite2-City.mmdb'  # Download from MaxMind
+  api_key: null  # Optional API key for online services
+
+# Logging configuration
+logging:
+  level: 'INFO'
+  file_path: 'logs/honeyport.jsonl'
+  max_file_size_mb: 100
+  backup_count: 5
+  retention_days: 90
+
+# Web dashboard configuration
+web:
+  enabled: true
+  host: '0.0.0.0'
+  port: 8080
+  api_key: null  # Optional API key for authentication
+  cors_origins: ['*']
+
+# Prometheus metrics configuration
+metrics:
+  enabled: true
+  port: 9090
+  path: '/metrics'
+

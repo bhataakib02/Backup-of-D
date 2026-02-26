@@ -1,0 +1,95 @@
+body {
+    background: url('/static/assets/cyber-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #00ff88;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow: auto;
+}
+.container {
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgba(0, 255, 136, 0.6);
+    max-width: 600px;
+    width: 90%;
+}
+.neon {
+    text-shadow: 0 0 10px #00ff88, 0 0 20px #00ff88, 0 0 30px #00cc66;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+@keyframes glow {
+    from { text-shadow: 0 0 10px #00ff88, 0 0 20px #00ff88; }
+    to { text-shadow: 0 0 20px #00ff88, 0 0 30px #00cc66, 0 0 40px #009955; }
+}
+.input-group {
+    margin: 20px 0;
+}
+#passwordInput {
+    padding: 12px;
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #00ff88;
+    background: rgba(255, 255, 255, 0.1);
+    color: #00ff88;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+#passwordInput:focus {
+    outline: none;
+    box-shadow: 0 0 15px #00ff88;
+}
+#strengthMeter {
+    width: 100%;
+    max-width: 400px;
+    height: 12px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+#strengthMeter div {
+    height: 100%;
+    border-radius: 6px;
+    transition: width 0.5s ease, background-color 0.5s ease;
+    background: linear-gradient(90deg, #ff4d4d, #ffd700, #00ff88);
+}
+#strengthText {
+    font-size: 14px;
+    color: #00ff88;
+    text-shadow: 0 0 5px #00ff88;
+}
+.btn {
+    padding: 12px 30px;
+    background: linear-gradient(45deg, #00ff88, #00cc66);
+    color: #0f0f23;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px #00ff88;
+}
+#chart {
+    margin: 20px 0;
+    min-height: 400px;
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        width: 95%;
+    }
+    #passwordInput {
+        max-width: 100%;
+    }
+}

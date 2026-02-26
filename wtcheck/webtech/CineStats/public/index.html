@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CineStats – All-Time Box Office</title>
+    <meta name="description" content="CineStats – Box Office Mojo Clone: Explore all-time box office with modern UI." />
+    <link rel="icon" href="/assets/favicon.ico" />
+    <link rel="preload" as="image" href="/assets/logo.svg" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="loader"><div class="ring"></div></div>
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html">
+          <img src="/assets/logo.svg" alt="CineStats" />
+          <span>CineStats</span>
+        </a>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="all-movies.html">All Movies</a>
+          <a href="top10.html">Top 10</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="actions">
+          <button class="btn" id="themeToggle">Dark/Light</button>
+          <a class="btn" href="admin.html">Admin</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="gradient-orb"></div>
+      <div class="container">
+        <div>
+          <h1 data-reveal>Track All-Time Box Office like a Pro</h1>
+          <p class="muted" data-reveal>
+            Search, sort, and explore the biggest movies ever with a slick, modern interface.
+          </p>
+          <div class="row" data-reveal>
+            <a class="btn" href="all-movies.html">Browse All Movies</a>
+            <a class="btn" href="top10.html">See Top 10</a>
+          </div>
+        </div>
+        <div class="glass" style="padding:12px">
+          <h3 style="margin:12px">Live Top 10 Grossing Movies</h3>
+          <div id="top10Carousel" class="grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <small class="muted">© <span id="year"></span> CineStats</small>
+        <div class="social">
+          <a href="#" aria-label="Twitter">𝕏</a>
+          <a href="#" aria-label="GitHub">GH</a>
+          <a href="#" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module">
+      import { currency } from '/js/main.js';
+      document.getElementById('year').textContent = new Date().getFullYear();
+      fetch('/api/movies/top?limit=10').then(r=>r.json()).then((movies)=>{
+        const host = document.getElementById('top10Carousel');
+        host.innerHTML = movies.map(m=>{
+          const poster = (m.posterURL && m.posterURL !== 'undefined' && m.posterURL !== 'null') 
+            ? m.posterURL 
+            : '/assets/poster-default.svg';
+          return `
+          <a class="card" href="movie.html?id=${m.id || m._id}">
+            <img class="thumb" src="${poster}" alt="${m.title || 'Movie'}" loading="lazy" onerror="this.onerror=null; this.src='/assets/poster-default.svg'"/>
+            <div class="content">
+              <div class="meta"><strong>${m.title || 'Untitled'}</strong><span>${m.year || 'N/A'}</span></div>
+              <div class="muted">${currency(m.worldwideGross)}</div>
+            </div>
+          </a>`;
+        }).join('');
+      }).catch(()=>{});
+    </script>
+    <script src="/js/main.js" type="module"></script>
+  </body>
+  </html>
+
+

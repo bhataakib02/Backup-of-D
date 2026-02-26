@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Movie Details – CineStats</title>
+    <meta name="description" content="Movie details with box office stats and reviews." />
+    <link rel="icon" href="/assets/favicon.ico" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+  </head>
+  <body>
+    <div class="loader"><div class="ring"></div></div>
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html"><img src="/assets/logo.svg" alt="CineStats" /><span>CineStats</span></a>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="all-movies.html">All Movies</a>
+          <a href="top10.html">Top 10</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="actions">
+          <button class="btn" id="themeToggle">Dark/Light</button>
+          <a class="btn" href="admin.html">Admin</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container" style="padding:18px 0">
+      <div id="details" class="glass" style="padding:12px"></div>
+      <div class="space"></div>
+      <div class="grid">
+        <div class="glass" style="padding:12px">
+          <h3>Box Office Breakdown</h3>
+          <canvas id="chart" width="400" height="260"></canvas>
+        </div>
+        <div class="glass" style="padding:12px">
+          <div class="row" style="justify-content: space-between; align-items:center">
+            <h3>User Reviews</h3>
+            <button id="fav" class="btn">Add to Favorites</button>
+          </div>
+          <div id="reviews"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <small class="muted">© <span id="year"></span> CineStats</small>
+        <div class="social"><a href="#">𝕏</a><a href="#">GH</a><a href="#">YT</a></div>
+      </div>
+    </footer>
+
+    <script src="/js/main.js" type="module"></script>
+    <script src="/js/movieDetails.js" type="module"></script>
+  </body>
+  </html>
+
+

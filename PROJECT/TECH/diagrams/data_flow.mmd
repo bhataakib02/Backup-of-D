@@ -1,0 +1,44 @@
+flowchart LR
+    subgraph "📥 INPUT SOURCES"
+        A1[📹 CCTV Feeds<br/>4K Video Streams]
+        A2[📡 IoT Sensors<br/>Real-time Data]
+        A3[🚁 Drones<br/>Aerial Monitoring]
+        A4[📱 Mobile Apps<br/>User Interactions]
+        A5[📅 Calendar<br/>Festival Data]
+        A6[🌤️ Weather<br/>API Data]
+    end
+    
+    subgraph "⚡ PROCESSING LAYER"
+        B1[🔄 Stream Processing<br/>Apache Kafka]
+        B2[🗄️ Data Storage<br/>Data Lake]
+        B3[🔍 Data Validation<br/>Quality Checks]
+        B4[🧹 Data Cleaning<br/>Normalization]
+        B5[📦 Aggregation<br/>Time Windows]
+    end
+    
+    subgraph "🧠 AI/ML ANALYSIS"
+        C1[🤖 Prediction Models<br/>LSTM Networks]
+        C2[📊 Analytics Engine<br/>Real-time Processing]
+        C3[🚨 Anomaly Detection<br/>Isolation Forest]
+        C4[📈 Trend Analysis<br/>Pattern Recognition]
+        C5[🔮 Forecasting<br/>Prophet Algorithm]
+    end
+    
+    subgraph "📤 OUTPUTS"
+        D1[📱 Mobile Notifications<br/>Push Alerts]
+        D2[🖥️ Admin Dashboard<br/>Real-time Metrics]
+        D3[🚨 Emergency Alerts<br/>Automated Response]
+        D4[🎟️ Queue Management<br/>Wait Time Updates]
+        D5[🗺️ Navigation<br/>Route Optimization]
+    end
+    
+    A1 & A2 & A3 & A4 & A5 & A6 --> B1 & B2 & B3 & B4 & B5
+    B1 & B2 & B3 & B4 & B5 --> C1 & C2 & C3 & C4 & C5
+    C1 & C2 & C3 & C4 & C5 --> D1 & D2 & D3 & D4 & D5
+    
+    style A1 fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    style A2 fill:#e8f5e8,stroke:#388e3c,stroke-width:2px
+    style A3 fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    style A4 fill:#fce4ec,stroke:#c2185b,stroke-width:2px
+    style A5 fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    style A6 fill:#e0f2f1,stroke:#00695c,stroke-width:2px

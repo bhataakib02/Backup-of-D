@@ -1,0 +1,38 @@
+[Unit]
+Description=Honeyport Professional Network Honeypot
+Documentation=https://github.com/honeyport/honeyport
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=honeyport
+Group=honeyport
+WorkingDirectory=/opt/honeyport
+ExecStart=/usr/bin/python3 /opt/honeyport/src/main.py
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=honeyport
+
+# Security settings
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/honeyport/logs /opt/honeyport/data
+
+# Resource limits
+LimitNOFILE=65536
+MemoryMax=512M
+CPUQuota=50%
+
+# Environment
+Environment=PYTHONPATH=/opt/honeyport
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
+

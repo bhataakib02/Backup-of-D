@@ -1,0 +1,19 @@
+{
+  "ldap_server": "ldap://your-company-ldap-server.com",
+  "ldap_user": "cn=admin,dc=example,dc=com",
+  "ldap_pass": "your-ldap-password",
+  "email_server": "smtp.your-company.com",
+  "email_port": 587,
+  "email_user": "alerts@your-company.com",
+  "email_pass": "your-email-password",
+  "aws_access_key": "your-aws-access-key",
+  "aws_secret_key": "your-aws-secret-key",
+  "aws_bucket": "your-s3-bucket",
+  "gcp_project": "your-gcp-project",
+  "azure_connection_string": "your-azure-connection-string",
+  "virustotal_api_key": "your-virustotal-api-key",
+  "blockchain_provider": "https://testnet.infura.io/v3/your-infura-key",
+  "language": "en",
+  "min_entropy": 4.0,
+  "min_length": 16
+}
